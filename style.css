@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: black;
+}
+
+header img {
+    float: left;
+    height: 50px;
+    width: auto;
+    padding: 10px;
+}
+
+header ul {
+    list-style-type: none;
+    float: right;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    text-decoration: underline;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+.mission {
+    height: 700px;
+    background-image: url(mission-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    display: flex;
+}
+
+.mission-content {
+    width:  1200px;
+    background-color: black;
+    margin: auto;
+}
+
+.month {
+    max-width: 1000px;
+    margin: 70px auto 70px auto;
+}
+
+.month img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.month figure {
+    margin: auto;
+    display: inline-block;
+}
+
+.month figcaption {
+    padding-bottom: 10px;
+}
+
+.location {
+    height: 500px;
+    margin: auto;
+    background-image: url(locations-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.location-content {
+    padding-top: 50px;
+}
+
+.address {
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px 20px 15px;
+    display: inline-block;
+}
+.contact {
+    height: 200px;
+}
+
+footer {
+    float: left;
+    margin: auto auto auto 20px;
+}
